@@ -5,6 +5,8 @@ import FunctionWithParameterComp from './EventDemo/FunctionWithParameterComp';
 import HandlingEventWithState from './EventDemo/HandlingEventWithState';
 import HandlingInputEvent from './EventDemo/HandlingInputEvent';
 import UseState from './HookDemo/UseState';
+import UseStateUser from './HookDemo/UseStateUser';
+import UseEffect from './HookDemo/UseEffect';
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
     <HandlingEventWithState/>
     <HandlingInputEvent/>
     <UseState/>
+    <UseStateUser/>
+    <UseEffect/>
     </div>
   );
 }
